@@ -1,5 +1,5 @@
 <button type="button" class="btn btn-light" (click)="showSearchInput = !showSearchInput">Search for places</button>
-<button type="button" class="btn btn-light">Current location</button>
+<button type="button" class="btn btn-light" (click)="getLocation()">Current location</button>
 
 <div *ngIf="showSearchInput">
     <form [formGroup]="weatherSearchForm">

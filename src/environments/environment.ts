@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   baseUrlWeather: 'http://api.weatherstack.com/current?access_key=10dcb79421ec9a0bc70c02357c7a1c31',
-  baseUrlLocation: 'https://wft-geo-db.p.rapidapi.com/v1'
+  baseUrlLocation: 'https://maps.googleapis.com/maps/api/geocode/json?sensor=true&key=AIzaSyAHr8Ir07ryi1bmDHgz0GMDOBlJK0Zyq0U'
 };
 
 /*

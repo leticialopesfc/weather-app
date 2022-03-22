@@ -14,7 +14,7 @@ export class WeatherService {
       private http: HttpClient
   ) { }
 
-  getWeather(location: string, unit: string): Observable<string> {
-      return this.http.get<string>(this.baseUrl + '&query=' + location + '&units=' + unit);
+  getWeather(location: string, unit: string): Observable<any> {
+      return this.http.get<any>(this.baseUrl + '&query=' + location + '&units=' + unit);
   }
 }
